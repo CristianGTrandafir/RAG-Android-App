@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/scanner_wall">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="217dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/griddata"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="142dp"
+        android:gravity="center"
+        android:text="Title"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/gridprice"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/griddata"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="153dp"
+        android:gravity="center"
+        android:text=" Price"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/gridsellername"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_below="@+id/gridprice"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="0dp"
+        android:gravity="center"
+        android:text=" Seller Name:"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/gridselleraddress"
+        android:layout_width="412dp"
+        android:layout_height="97dp"
+        android:layout_below="@+id/gridsellername"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="-1dp"
+        android:gravity="center"
+        android:text=" Seller Address:"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/gridsellerphone"
+        android:layout_width="408dp"
+        android:layout_height="92dp"
+        android:layout_above="@+id/bCustomerChat"
+        android:layout_below="@+id/gridselleraddress"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text=" Seller Phone:"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/bCustomerChat"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="3dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/teal_200"
+        android:layout_marginBottom="14dp"
+        android:text="Chat with Seller" />
+
+    <Button
+        android:id="@+id/bCustomerChatai"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="11dp"
+        android:backgroundTint="@color/teal_200"
+        android:layout_toStartOf="@+id/bCustomerChat"
+        android:text="Chat with AI" />
+
+</RelativeLayout>

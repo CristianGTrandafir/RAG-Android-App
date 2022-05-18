@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200">
+
+
+    <TextView
+        android:id="@+id/tAccount"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bPersonal"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="8dp"
+        android:text="Account"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bPersonal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bPayment"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="8dp"
+        android:text="Personal and Information"
+        android:backgroundTint="@android:color/white"
+        android:textColor="@color/black"
+        app:icon="@android:drawable/ic_dialog_info"
+        app:iconTint="#2196F3" />
+
+    <Button
+        android:id="@+id/bPayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tSupport"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="8dp"
+        android:text="Payment"
+        android:backgroundTint="@android:color/white"
+        android:textColor="@color/black"
+        app:icon="@android:drawable/ic_partial_secure"
+        app:iconTint="#2196F3" />
+
+    <TextView
+        android:id="@+id/tSupport"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bHelp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="Support"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bSafetly"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="8dp"
+        android:text="I Need Help"
+        android:textColor="@color/black"
+        android:backgroundTint="@android:color/white"
+        app:icon="@android:drawable/ic_menu_help"
+        app:iconTint="#2196F3" />
+
+    <Button
+        android:id="@+id/bSafetly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tFeedback"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="8dp"
+        android:text="I Have a Safetly Concern"
+        android:textColor="@color/black"
+        android:backgroundTint="@android:color/white"
+        app:icon="@android:drawable/ic_menu_save"
+        app:iconTint="#2196F3" />
+
+    <TextView
+        android:id="@+id/tFeedback"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bSpotted"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="8dp"
+        android:text="FeedBack"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bSpotted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bSuggestion"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="8dp"
+        android:text="I Spotted a Bug"
+        android:textColor="@color/black"
+        android:backgroundTint="@android:color/white"
+        app:icon="@android:drawable/stat_notify_error"
+        app:iconTint="#2196F3" />
+
+    <Button
+        android:id="@+id/bSuggestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tInformation"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="8dp"
+        android:text="I Have a Suggestion"
+        android:textColor="@color/black"
+        android:backgroundTint="@android:color/white"
+        app:icon="@android:drawable/ic_dialog_email"
+        app:iconTint="#2196F3" />
+
+    <TextView
+        android:id="@+id/tInformation"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bPolicy"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="8dp"
+        android:text="More Information"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bPolicy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bTerms"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="8dp"
+        android:text="Private Policy"
+        android:textColor="@color/black"
+        android:backgroundTint="@android:color/white"
+        app:icon="@android:drawable/ic_menu_more"
+        app:iconTint="#2196F3" />
+
+    <Button
+        android:id="@+id/bTerms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tAppInfo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="8dp"
+        android:text="Terms Of Service"
+        android:textColor="@color/black"
+        android:backgroundTint="@android:color/white"
+        app:icon="@android:drawable/ic_popup_reminder"
+        app:iconTint="#2196F3" />
+
+    <TextView
+        android:id="@+id/tAppInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="6dp"
+        android:text="RentAGym v7.14.0.7\nMade in Chicago"
+        android:textAlignment="center"
+        android:textStyle="italic" />
+
+</RelativeLayout>
